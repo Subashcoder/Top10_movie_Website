@@ -27,8 +27,8 @@ This web application allows users to manage a list of the **Top 10 Movies**. Use
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/top-10-movies-web-app.git
-    cd top-10-movies-web-app
+    git clone https://github.com/Subashcoder/Top10_movie_Website.git
+    cd Top10_movies
     ```
 
 2. **Create a virtual environment:**
@@ -63,4 +63,22 @@ This web application allows users to manage a list of the **Top 10 Movies**. Use
     flask db upgrade
     ```
 
-6. **Run th
+## How to use
+
+### Adding a Movie
+
+- Navigate to the "Add_Movie" page.
+- Fill out the movie title and API will return all the movies detail related to title.
+- Select the movie you want.
+- Page will be redirected to review add the review and rating and movie will be added.
+
+### Deleting a Movie
+
+- Go to the list of movies.
+- Click the "Delete" button next to the movie you want to remove.
+
+### Updating Reviews and Ratings
+
+- Select a movie from the movie list.
+- Click the Update button and fill the review and rating fields.
+- Click "Save" to update the movie information.
